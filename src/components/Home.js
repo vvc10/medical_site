@@ -62,33 +62,32 @@ const Home = () => {
                         </span>
                         <br />
                         <p className='fl-review'>
-                            Nivodental is a perfect responsive 5 in 1 $HTML5 template for #health #clinics, doctors, dentists, hospitals, surgeons and any type of health or medical organization website download.
-                        </p>
+                        "The personalized care and attention I received at MicroLearn made all the difference in my health journey. The team's commitment to excellence is truly commendable."                        </p>
                     </div>
 
                     <div className='cdiv_body_fl_indiv'>
                         <img src={img2} alt='Patient' />
                         <span>
-                            Joseph
+                            David
                             <br />
-                            <label>Biologist</label>
+                            <label>Teacher</label>
                         </span>
                         <br />
                         <p className='fl-review'>
-                            Nivodental is a perfect responsive 5 in 1 $HTML5 template for #health #clinics, doctors, dentists, hospitals, surgeons and any type of health or medical organization website download.
-                        </p>
+                        "I appreciate the modern facilities and advanced diagnostics at MicroLearn. The seamless experience and expert care have exceeded my expectations."                        </p>
                     </div> 
                     <div className='cdiv_body_fl_indiv'>
                         <img src={img2} alt='Patient' />
                         <span>
-                            Joseph
+                            Sophia
                             <br />
-                            <label>Biologist</label>
+                            <label>Athlete</label>
                         </span>
                         <br />
                         <p className='fl-review'>
-                            Nivodental is a perfect responsive 5 in 1 $HTML5 template for #health #clinics, doctors, dentists, hospitals, surgeons and any type of health or medical organization website download.
-                        </p>
+                        "As an athlete, I rely on precision and expertise. MicroLearn not only meets but exceeds my health and wellness expectations. Truly a reliable partner on my fitness journey."
+
+</p>
                     </div>
                 </div>
                 <div className='indiv_controls'>

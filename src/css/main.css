@@ -1942,15 +1942,16 @@
   display: flex;
   flex-direction: row;
   width: 80%;
-  height: 80%;
+  height: fit-content;
   margin: auto;
   gap: 40px;
+  padding-bottom: 4rem;
 }
 
 .tdfl_card {
   background-color: #ffffff;
   width: 30%;
-  height: 100%;
+  height: fit-content;
   border-radius: 10px;
   transition: transform .1s;
 }
@@ -1971,7 +1972,10 @@
   display: flex;
   flex-direction: column;
 }
-
+.tdfl_card>span>label{
+  font-size: 12px !important;
+  color: grey;
+}
 .tdfl_card>p {
   height: 20%;
   padding: 0 20px;
@@ -2220,10 +2224,12 @@
 }
 
 .cdiv_body_fl_indiv>p {
-  font-size: 14px;
+  font-size: 15px;
   width: 70%;
   margin: auto;
   opacity: .7;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
 }
 
 .cdiv_body_fl_indiv>span>label {
@@ -2458,7 +2464,7 @@
     flex-direction: column;
   }
     .carousel-inner{
-      height: 40vh;
+      height: fit-content;
     }
     .carousel-caption>h5{
       font-size: 25px;
@@ -2477,7 +2483,7 @@
       display: block;
       margin: auto;
       width: fit-content;
-      padding: .2px;
+      padding: 1rem;
   border-radius: 1rem;
   font-size: 14px;
     }

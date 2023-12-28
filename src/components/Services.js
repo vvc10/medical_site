@@ -8,29 +8,23 @@ const Services = () => {
             <div className='services_div'>
                 <div className='servicesdiv_head'>
                     <label>Our Services</label>
-                    <p>[Founder/CEO Name] is the visionary leader and driving force behind [Your Company Name].</p>
+                    <p>With a passion for innovation and a relentless pursuit of quality, Eliesh Joseph serves as the driving force behind the comprehensive range of services we offer.</p>
                 </div>
                 <div className='servicesdiv_fl'>
                     <div className='sdfl_cards'>
                         <div className='cards_icon'><img src={img1} /></div>
-                        <label>Primary Care</label>
-                        <p>General check-ups
-                            Vaccinations
-                            Preventive care</p>
+                        <label>Wellness Programs</label>
+                        <p>Embrace a holistic approach to well-being with our comprehensive wellness programs.</p>
                     </div>
                     <div className='sdfl_cards'>
                         <div className='cards_icon'><img src={img2} /></div>
-                        <label>Primary Care</label>
-                        <p>General check-ups
-                            Vaccinations
-                            Preventive care</p>
+                        <label>24/7 Support</label>
+                        <p>Access support around the clock with our dedicated 24-hour service. Health needs can arise at any time</p>
                     </div>
                     <div className='sdfl_cards'>
                         <div className='cards_icon'><img src={img3} /></div>
-                        <label>Primary Care</label>
-                        <p>General check-ups
-                            Vaccinations
-                            Preventive care</p>
+                        <label>Personalized Patient Care</label>
+                        <p>Experience a personalized approach to healthcare that goes beyond conventional medical practices. </p>
                     </div>
                 </div>
 
