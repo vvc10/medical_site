@@ -57,7 +57,7 @@
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
-  background-color: #ffffffdb;
+  background-color: transparent;
   align-items: center;
   text-align: center;
   font-size: 14px;
@@ -65,7 +65,7 @@
   width: 100vw;
   position: fixed;
   top: 0;
-  padding: 4rem;
+  padding: 2.5rem 0;
   left: 0;
 
 }
@@ -101,7 +101,7 @@
   /* position: fixed; */
   padding: 20px 20px;
   /* position: fixed; */
-  height: fit-content;
+  height: 10vh;
   width: 100%;
   box-shadow: 0px 4px 0px rgb(0, 0, 0, 0);
   display: flex;
@@ -296,15 +296,29 @@
 
 .apt-btn {
   border: 1px solid transparent;
+  background-color: #0cb8b600;
+  border: 1px solid #0000007d;
+  color: black;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  box-shadow: none;
+}
+.lgn-btn{
+  border: 1px solid transparent;
   background-color: #0cb8b6;
   color: white;
   font-size: 15px;
   padding: 10px 20px;
   border-radius: 30px;
   box-shadow: none;
-
+  margin: 0 .5rem;
 }
-
+.lgn-btn:hover{
+  border: 1px solid black;
+  background-color: hsl(0, 0%, 100%);
+  color: rgb(0, 0, 0);
+}
 #carouselExampleDark {
   height: fit-content;
   opacity: 1;
@@ -2515,7 +2529,7 @@ width: 30%;
       display: block;
       margin: auto;
       width: fit-content;
-      padding: .2px;
+      padding: 1rem;
   border-radius: 1rem;
   font-size: 14px;
   position: relative;

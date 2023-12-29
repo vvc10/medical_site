@@ -22,10 +22,9 @@ const Navbar = () => {
                         Blog
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Latest</a></li>
+                        <li><a class="dropdown-item" href="#">Top posts</a></li>
+                        
                     </ul>
                 </li>
 
@@ -34,23 +33,12 @@ const Navbar = () => {
                         Products
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Latest Launch</a></li>
+                        <li><a class="dropdown-item" href="#">Books</a></li>
+                         
                     </ul>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Books
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
+                
                 <li class="nav-item">
                     <a class="nav-link" href="#">
                         Contacts
@@ -62,6 +50,7 @@ const Navbar = () => {
 
             </ul>
             <button class="btn btn-outline-success apt-btn" type="submit">Appointment</button>
+            <button class="btn btn-outline-success lgn-btn" type="submit">Login</button>
         </div>
     </div>
 
